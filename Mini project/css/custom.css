@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=DotGothic16&display=swap');
+*{
+	font-family: 'ABeeZee', Roboto, sans-serif;
+}
+body{
+	border-color: whitesmoke;
+	background-color: #242424;
+}
+.form-group{
+	background: transparent;
+}
+.reservation-box{
+	height: vh;
+	width: vw;
+}
+#submit:hover{
+	background-color: whitesmoke;
+	color: black;
+
+}
+head,body{
+    height: 100vh;
+}
+.parallax{
+    background-image: url(../bck.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    colour: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: white;
+}
+.heading-title {
+	text-align: center;
+	color: white;
+	font-family: 'ABeeZee', Roboto, sans-serif;
+}
+.heading-title h2{
+	color: white;
+	font-size: 3rem;
+	font-family: 'ABeeZee', Roboto, sans-serif;
+}
