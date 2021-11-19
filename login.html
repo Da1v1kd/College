@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <div class="main">
+  <div class="heading">Hostel Management System</div>
+  <div class="outerbox">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#student" type="button"
+          role="tab" aria-controls="home" aria-selected="true" >Student Login</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#faculty" type="button"
+          role="tab" aria-controls="profile" aria-selected="false" >Faculty Login</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="student" role="tabpanel" aria-labelledby="home-tab">
+        <form id="student-form">
+          <h3>Login Here</h3>
+
+          <label for="username">Username</label>
+          <input type="text" placeholder="USN" id="student-username">
+
+          <label for="password">Password</label>
+          <input type="password" placeholder="Password" id="student-password">
+
+          <button class="botton" onclick="location.href='./about.html'" type="button">Log In</button>
+          <button class="botton" onclick="location.href='./register.html'" type="button">Sign up</button>
+        </form>
+
+      </div>
+      <div class="tab-pane fade" id="faculty" role="tabpanel" aria-labelledby="profile-tab">
+        <form id="faculty-form">
+          <h3>Faculty Login</h3>
+
+          <label for="username">Username</label>
+          <input type="text" placeholder="Username" id="faculty-username">
+
+          <label for="password">Password</label>
+          <input type="password" placeholder="Password" id="faculty-password">
+
+          <button class="botton" onclick="location.href='./about.html'" type="button">Log In</button>
+
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+  integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+
+</html>
